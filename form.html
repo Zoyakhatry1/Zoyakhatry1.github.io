@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>Fill this form so that I can contact you</h3>
+    <table>
+    <tr>
+    <form  action="mailto:info@londonappbrewery.com" method="POST" enctype="text/plain">
+    <td><label>YOUR NAME:</label></td>
+   <td> <input type="text" name="Your name" value=""></td><br><br>
+    </tr>
+    <tr>
+    <td><label> YOUR EMAIL ID:</label></td>
+    <td><input type="email" name="Your email" value=""><br></td>
+    </tr>
+    <tr>
+     <td><label>YOUR PHONE NUMBER:</label></td>
+     <td><input type="number" name="Your number" value=""></td>
+    </tr>
+    </table>
+    <label>You want to contact me for:</label>
+    <input type="radio" id="coding" name="choice" value="Coding">
+    <label for="coding">Coding</label>
+    <input type="radio" id="editing" name="choice" value="editing">
+    <label for="editing">editing</label>
+    <input type="radio" id="both" name="choice" value="both">
+    <label for="both">Both</label><br><br>
+    <label> Please mention the date and time so that I can contact you: </label>
+    <input type="datetime-local" id="submission" name="submission"><br><br>
+    <label>Please upload your image here:</label>
+    <input type="file" id="img"  accept="image/*"><br><br>
+    <label>Enter the password</label>
+    <input type="password"  value=""><br><br>
+    <label>YOUR MESSAGE:</label><br>
+    <textarea name="Your message" rows="10" cols="30"></textarea><br><br>
+    <label>I agree to all the terms and conditions</label>
+    <input type="checkbox" name="" value=""><br><br>
+    <input type="submit">
+    </form>
+</body>
+</html>
